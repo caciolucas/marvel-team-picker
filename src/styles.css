@@ -1,0 +1,111 @@
+#root {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-image: url('./assets/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+#navbar {
+    width: 100%;
+}
+
+#navbar-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 45%;
+    text-transform: uppercase;
+    padding-top: 20px;
+
+}
+
+#navbar-inner>* {
+    color: white;
+}
+
+#characters-link {
+    text-align: right;
+}
+
+#teams-link {
+    text-align: left;
+}
+
+#navbar-inner>img {
+    height: 100px !important;
+    width: 100px !important;
+    object-fit: scale-down;
+    filter: invert(1);
+}
+
+#content {
+    margin-top: 50px;
+}
+
+.search-bar {
+    max-width: 800px;
+    margin: auto;
+    align-items: center;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.card {
+    margin: auto;
+}
+
+.thumbnail {
+    height: 300px;
+    object-fit: cover;
+}
+
+.avenger-logo {
+    height: 30px;
+}
+
+.card-title {
+    height: 200px;
+}
+
+.nav-link {
+    color: white;
+    cursor: pointer;
+    border-bottom: 1px solid var(--chakra-colors-red-100);
+    transition: all 0.2s ease-in-out;
+}
+
+.nav-link:hover {
+    color: var(--chakra-colors-red-300) !important;
+    border-bottom: 2px solid var(--chakra-colors-red-300);
+}
+
+.home-title {
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    width: 10%;
+}
+
+.disabled {
+    color: gray !important;
+    cursor: not-allowed !important;
+}
+
+.page-number {
+    color: white;
+    font-size: xx;
+}
